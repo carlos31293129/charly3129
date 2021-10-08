@@ -1,0 +1,68 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin: 0%;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: auto;
+}
+.header{
+    background-color: rgb(85, 22, 22);
+    color: white;
+    padding: 2rem 0;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navigation ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all a.4s linear;
+}
+.navigation ul li a:hover{
+    background-color: brown;
+}
+.coffe{
+    position: relative;
+
+
+}
+.imagen{
+
+ 
+    width: 50%;
+   
+    
+   }
+
+   .final{
+       margin-top: auto;
+       margin-top: 3px;
+       max-width: 100%;
+       background-color: rgb(122, 29, 29);
+       color: white;
+       padding: 50px 50px;
+   }
